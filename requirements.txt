@@ -1,9 +1,10 @@
 flask
 flask-cors
-gunicorn
 waitress
 pillow
 scikit-image
--f https://download.pytorch.org/whl/torch_stable.html                                                                                                                                                        
+numpy
 torch==1.5.0+cpu
 torchvision==0.6.0+cpu
+# For torch+cpu wheels, use the official PyTorch index:
+-f https://download.pytorch.org/whl/torch_stable.html
