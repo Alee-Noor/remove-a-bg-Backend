@@ -12,7 +12,6 @@
 
 Run server with waitress: waitress-serve --host 0.0.0.0 --port 5000 app:app
 
-To get base64 output image url (**you should not do this in terminal** 🤐):
-```bash
+
 
 ```
